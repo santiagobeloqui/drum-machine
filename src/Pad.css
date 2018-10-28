@@ -1,0 +1,57 @@
+.pad{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 5%;
+    margin: 10px 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+
+
+
+}
+.letter{
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(37, 37, 255);
+    font-size: 2em;
+
+}
+.instrument-name{
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(78, 78, 78);
+    font-weight: 700;
+}
+
+
+
+.play{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 5%;
+    margin: 10px 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    transform: scale(1.01);
+    animation-name: play;
+    animation-duration: 0.2s;
+    animation-fill-mode:backwards;
+}
+
+@keyframes play{
+    0%{
+        background-color: rgb(160, 160, 160);
+    }
+    50%{
+        background-color: rgb(238, 205, 15);
+    }
+}
